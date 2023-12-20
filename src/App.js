@@ -18,14 +18,6 @@ function App() {
       {showTable ? (
         <div className="card">
           <Matrix x={x} y={y} />
-          {/* <Button
-            onClick={() => setShowTable(false)}
-            colorScheme="teal"
-            variant="solid"
-            my={5}
-          >
-            Змінити розміри таблиці
-          </Button> */}
         </div>
       ) : (
         <div className="card">

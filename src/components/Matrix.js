@@ -87,8 +87,7 @@ function Matrix({ x, y }) {
     const modifiedMatrix = matrix.map((row) =>
       row.map((cell, colIndex) => columnMaxValues[colIndex] - cell)
     );
-    // const maximaxes = matrix.map((row) => Math.max(...row));
-    // const overallMaximax = Math.max(...maximaxes);
+
     const sev = modifiedMatrix.map((row) => Math.max(...row));
     const overallSev = Math.min(...sev);
     return { modifiedMatrix, overallSev };
