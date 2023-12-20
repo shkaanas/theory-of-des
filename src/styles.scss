@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.card {
+  margin: 100px auto;
+  padding: 70px;
+  min-width: 800px;
+  min-height: 100px;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &_inner{
+    text-align: left ;
+  }
+}
